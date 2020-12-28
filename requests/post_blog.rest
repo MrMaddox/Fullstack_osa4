@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer gd34tert34JKND34KNdqp4LKD
+
+{
+    "title": "Uusi testi",
+    "author": "Tama on uusi",
+    "url": "www.wow.com",
+    "likes": 2,
+    "userId": "5fe9cd99d0bd43b00d6687b7"
+}
